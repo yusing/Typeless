@@ -318,6 +318,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Projects\Typeless\test\test.cpp" />
+    <ClInclude Include="C:\Projects\Typeless\test\object_test.h" />
+    <ClInclude Include="C:\Projects\Typeless\test\array_test.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Projects\Typeless\build\ZERO_CHECK.vcxproj">

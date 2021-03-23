@@ -14,7 +14,7 @@ CostDataFile:
 Site: YUSING-LAPTOP
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-ninja
+BuildName: Win32-mingw32-make
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,7 +27,7 @@ NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
 ConfigureCommand: "C:/Users/main/scoop/apps/cmake/3.19.6/bin/cmake.exe" "C:/Projects/Typeless"
-MakeCommand: C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
+MakeCommand: C:/Users/main/scoop/apps/cmake/3.19.6/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/x64/bin/clang.exe
-CompilerVersion: 11.0.0
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
+CompilerVersion: 8.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

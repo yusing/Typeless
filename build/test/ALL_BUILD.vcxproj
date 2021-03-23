@@ -186,6 +186,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C650B579-EA3B-3360-8985-BFEAE8E2AC96}</Project>
       <Name>gtest_main</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Projects\Typeless\build\test\internal\typeless_internal_test.vcxproj">
+      <Project>{813AA396-8FC8-3B3A-9F7D-628F4D7AE741}</Project>
+      <Name>typeless_internal_test</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Projects\Typeless\build\test\typeless_test.vcxproj">
       <Project>{1A01E71B-2176-35F8-B958-40D7514310EC}</Project>
       <Name>typeless_test</Name>

@@ -32,235 +32,235 @@ CONFIGURATION = Debug
 #############################################
 # Include rules file.
 
-include CMakeFiles/rules.ninja
+include CMakeFiles\rules.ninja
 
 
 #############################################
 # Utility command for NightlyMemoryCheck
 
-build NightlyMemoryCheck: phony CMakeFiles/NightlyMemoryCheck
+build NightlyMemoryCheck: phony CMakeFiles\NightlyMemoryCheck
 
 
 #############################################
 # Utility command for Experimental
 
-build Experimental: phony CMakeFiles/Experimental
+build Experimental: phony CMakeFiles\Experimental
 
 
 #############################################
 # Utility command for NightlySubmit
 
-build NightlySubmit: phony CMakeFiles/NightlySubmit
+build NightlySubmit: phony CMakeFiles\NightlySubmit
 
 
 #############################################
 # Utility command for NightlyConfigure
 
-build NightlyConfigure: phony CMakeFiles/NightlyConfigure
+build NightlyConfigure: phony CMakeFiles\NightlyConfigure
 
 
 #############################################
 # Utility command for NightlyBuild
 
-build NightlyBuild: phony CMakeFiles/NightlyBuild
+build NightlyBuild: phony CMakeFiles\NightlyBuild
 
 
 #############################################
 # Utility command for NightlyStart
 
-build NightlyStart: phony CMakeFiles/NightlyStart
+build NightlyStart: phony CMakeFiles\NightlyStart
 
 
 #############################################
 # Utility command for Continuous
 
-build Continuous: phony CMakeFiles/Continuous
+build Continuous: phony CMakeFiles\Continuous
 
 
 #############################################
 # Utility command for NightlyTest
 
-build NightlyTest: phony CMakeFiles/NightlyTest
+build NightlyTest: phony CMakeFiles\NightlyTest
 
 
 #############################################
 # Utility command for Nightly
 
-build Nightly: phony CMakeFiles/Nightly
+build Nightly: phony CMakeFiles\Nightly
 
 
 #############################################
 # Utility command for NightlyUpdate
 
-build NightlyUpdate: phony CMakeFiles/NightlyUpdate
+build NightlyUpdate: phony CMakeFiles\NightlyUpdate
 
 
 #############################################
 # Utility command for NightlyCoverage
 
-build NightlyCoverage: phony CMakeFiles/NightlyCoverage
+build NightlyCoverage: phony CMakeFiles\NightlyCoverage
 
 
 #############################################
 # Utility command for NightlyMemCheck
 
-build NightlyMemCheck: phony CMakeFiles/NightlyMemCheck
+build NightlyMemCheck: phony CMakeFiles\NightlyMemCheck
 
 
 #############################################
 # Utility command for ExperimentalBuild
 
-build ExperimentalBuild: phony CMakeFiles/ExperimentalBuild
+build ExperimentalBuild: phony CMakeFiles\ExperimentalBuild
 
 
 #############################################
 # Utility command for ExperimentalStart
 
-build ExperimentalStart: phony CMakeFiles/ExperimentalStart
+build ExperimentalStart: phony CMakeFiles\ExperimentalStart
 
 
 #############################################
 # Utility command for ExperimentalUpdate
 
-build ExperimentalUpdate: phony CMakeFiles/ExperimentalUpdate
+build ExperimentalUpdate: phony CMakeFiles\ExperimentalUpdate
 
 
 #############################################
 # Utility command for ContinuousMemCheck
 
-build ContinuousMemCheck: phony CMakeFiles/ContinuousMemCheck
+build ContinuousMemCheck: phony CMakeFiles\ContinuousMemCheck
 
 
 #############################################
 # Utility command for ExperimentalConfigure
 
-build ExperimentalConfigure: phony CMakeFiles/ExperimentalConfigure
+build ExperimentalConfigure: phony CMakeFiles\ExperimentalConfigure
 
 
 #############################################
 # Utility command for ExperimentalTest
 
-build ExperimentalTest: phony CMakeFiles/ExperimentalTest
+build ExperimentalTest: phony CMakeFiles\ExperimentalTest
 
 
 #############################################
 # Utility command for package_source
 
-build CMakeFiles/package_source.util: CUSTOM_COMMAND
+build CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build package_source: phony CMakeFiles/package_source.util
+build package_source: phony CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for ExperimentalCoverage
 
-build ExperimentalCoverage: phony CMakeFiles/ExperimentalCoverage
+build ExperimentalCoverage: phony CMakeFiles\ExperimentalCoverage
 
 
 #############################################
 # Utility command for ExperimentalMemCheck
 
-build ExperimentalMemCheck: phony CMakeFiles/ExperimentalMemCheck
+build ExperimentalMemCheck: phony CMakeFiles\ExperimentalMemCheck
 
 
 #############################################
 # Utility command for ExperimentalSubmit
 
-build ExperimentalSubmit: phony CMakeFiles/ExperimentalSubmit
+build ExperimentalSubmit: phony CMakeFiles\ExperimentalSubmit
 
 
 #############################################
 # Utility command for ContinuousStart
 
-build ContinuousStart: phony CMakeFiles/ContinuousStart
+build ContinuousStart: phony CMakeFiles\ContinuousStart
 
 
 #############################################
 # Utility command for ContinuousUpdate
 
-build ContinuousUpdate: phony CMakeFiles/ContinuousUpdate
+build ContinuousUpdate: phony CMakeFiles\ContinuousUpdate
 
 
 #############################################
 # Utility command for ContinuousSubmit
 
-build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
+build ContinuousSubmit: phony CMakeFiles\ContinuousSubmit
 
 
 #############################################
 # Utility command for ContinuousConfigure
 
-build ContinuousConfigure: phony CMakeFiles/ContinuousConfigure
+build ContinuousConfigure: phony CMakeFiles\ContinuousConfigure
 
 
 #############################################
 # Utility command for ContinuousBuild
 
-build ContinuousBuild: phony CMakeFiles/ContinuousBuild
+build ContinuousBuild: phony CMakeFiles\ContinuousBuild
 
 
 #############################################
 # Utility command for ContinuousTest
 
-build ContinuousTest: phony CMakeFiles/ContinuousTest
+build ContinuousTest: phony CMakeFiles\ContinuousTest
 
 
 #############################################
 # Utility command for ContinuousCoverage
 
-build ContinuousCoverage: phony CMakeFiles/ContinuousCoverage
+build ContinuousCoverage: phony CMakeFiles\ContinuousCoverage
 
 
 #############################################
 # Utility command for package
 
-build CMakeFiles/package.util: CUSTOM_COMMAND all
+build CMakeFiles\package.util: CUSTOM_COMMAND all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build package: phony CMakeFiles/package.util
+build package: phony CMakeFiles\package.util
 
 
 #############################################
 # Utility command for test
 
-build CMakeFiles/test.util: CUSTOM_COMMAND
+build CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build test: phony CMakeFiles/test.util
+build test: phony CMakeFiles\test.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build edit_cache: phony CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 
 #############################################
@@ -272,43 +272,31 @@ build list_install_components: phony
 #############################################
 # Utility command for install/local
 
-build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+build CMakeFiles\install\local.util: CUSTOM_COMMAND all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build install/local: phony CMakeFiles/install/local.util
+build install\local: phony CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build CMakeFiles/install.util: CUSTOM_COMMAND all
+build CMakeFiles\install.util: CUSTOM_COMMAND all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build install: phony CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/strip
-
-build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build install/strip: phony CMakeFiles/install/strip.util
+build install: phony CMakeFiles\install.util
 
 
 #############################################
 # Custom command for CMakeFiles\NightlyMemoryCheck
 
-build CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
+build CMakeFiles\NightlyMemoryCheck: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyMemoryCheck"
   pool = console
 
@@ -316,7 +304,7 @@ build CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\Experimental
 
-build CMakeFiles/Experimental: CUSTOM_COMMAND
+build CMakeFiles\Experimental: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D Experimental"
   pool = console
 
@@ -324,7 +312,7 @@ build CMakeFiles/Experimental: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlySubmit
 
-build CMakeFiles/NightlySubmit: CUSTOM_COMMAND
+build CMakeFiles\NightlySubmit: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlySubmit"
   pool = console
 
@@ -332,7 +320,7 @@ build CMakeFiles/NightlySubmit: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyConfigure
 
-build CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
+build CMakeFiles\NightlyConfigure: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyConfigure"
   pool = console
 
@@ -340,7 +328,7 @@ build CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyBuild
 
-build CMakeFiles/NightlyBuild: CUSTOM_COMMAND
+build CMakeFiles\NightlyBuild: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyBuild"
   pool = console
 
@@ -348,7 +336,7 @@ build CMakeFiles/NightlyBuild: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyStart
 
-build CMakeFiles/NightlyStart: CUSTOM_COMMAND
+build CMakeFiles\NightlyStart: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyStart"
   pool = console
 
@@ -356,7 +344,7 @@ build CMakeFiles/NightlyStart: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\Continuous
 
-build CMakeFiles/Continuous: CUSTOM_COMMAND
+build CMakeFiles\Continuous: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D Continuous"
   pool = console
 
@@ -364,7 +352,7 @@ build CMakeFiles/Continuous: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyTest
 
-build CMakeFiles/NightlyTest: CUSTOM_COMMAND
+build CMakeFiles\NightlyTest: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyTest"
   pool = console
 
@@ -372,7 +360,7 @@ build CMakeFiles/NightlyTest: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\Nightly
 
-build CMakeFiles/Nightly: CUSTOM_COMMAND
+build CMakeFiles\Nightly: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D Nightly"
   pool = console
 
@@ -380,7 +368,7 @@ build CMakeFiles/Nightly: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyUpdate
 
-build CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
+build CMakeFiles\NightlyUpdate: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyUpdate"
   pool = console
 
@@ -388,7 +376,7 @@ build CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyCoverage
 
-build CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
+build CMakeFiles\NightlyCoverage: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyCoverage"
   pool = console
 
@@ -396,7 +384,7 @@ build CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\NightlyMemCheck
 
-build CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
+build CMakeFiles\NightlyMemCheck: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D NightlyMemCheck"
   pool = console
 
@@ -404,7 +392,7 @@ build CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalBuild
 
-build CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalBuild: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalBuild"
   pool = console
 
@@ -412,7 +400,7 @@ build CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalStart
 
-build CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalStart: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalStart"
   pool = console
 
@@ -420,7 +408,7 @@ build CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalUpdate
 
-build CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalUpdate: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalUpdate"
   pool = console
 
@@ -428,7 +416,7 @@ build CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousMemCheck
 
-build CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
+build CMakeFiles\ContinuousMemCheck: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousMemCheck"
   pool = console
 
@@ -436,7 +424,7 @@ build CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalConfigure
 
-build CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalConfigure: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalConfigure"
   pool = console
 
@@ -444,7 +432,7 @@ build CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalTest
 
-build CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalTest: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalTest"
   pool = console
 
@@ -452,7 +440,7 @@ build CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalCoverage
 
-build CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalCoverage: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalCoverage"
   pool = console
 
@@ -460,7 +448,7 @@ build CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalMemCheck
 
-build CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalMemCheck: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalMemCheck"
   pool = console
 
@@ -468,7 +456,7 @@ build CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ExperimentalSubmit
 
-build CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
+build CMakeFiles\ExperimentalSubmit: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ExperimentalSubmit"
   pool = console
 
@@ -476,7 +464,7 @@ build CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousStart
 
-build CMakeFiles/ContinuousStart: CUSTOM_COMMAND
+build CMakeFiles\ContinuousStart: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousStart"
   pool = console
 
@@ -484,7 +472,7 @@ build CMakeFiles/ContinuousStart: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousUpdate
 
-build CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
+build CMakeFiles\ContinuousUpdate: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousUpdate"
   pool = console
 
@@ -492,7 +480,7 @@ build CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousSubmit
 
-build CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
+build CMakeFiles\ContinuousSubmit: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousSubmit"
   pool = console
 
@@ -500,7 +488,7 @@ build CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousConfigure
 
-build CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
+build CMakeFiles\ContinuousConfigure: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousConfigure"
   pool = console
 
@@ -508,7 +496,7 @@ build CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousBuild
 
-build CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
+build CMakeFiles\ContinuousBuild: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousBuild"
   pool = console
 
@@ -516,7 +504,7 @@ build CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousTest
 
-build CMakeFiles/ContinuousTest: CUSTOM_COMMAND
+build CMakeFiles\ContinuousTest: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousTest"
   pool = console
 
@@ -524,7 +512,7 @@ build CMakeFiles/ContinuousTest: CUSTOM_COMMAND
 #############################################
 # Custom command for CMakeFiles\ContinuousCoverage
 
-build CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
+build CMakeFiles\ContinuousCoverage: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe -D ContinuousCoverage"
   pool = console
 
@@ -537,25 +525,25 @@ build CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
 #############################################
 # Utility command for rebuild_cache
 
-build test/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build test\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build test/rebuild_cache: phony test/CMakeFiles/rebuild_cache.util
+build test\rebuild_cache: phony test\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for test
 
-build test/CMakeFiles/test.util: CUSTOM_COMMAND
+build test\CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build test/test: phony test/CMakeFiles/test.util
+build test\test: phony test\CMakeFiles\test.util
 
 # =============================================================================
 # Object build statements for EXECUTABLE target typeless_test
@@ -566,11 +554,10 @@ build test/test: phony test/CMakeFiles/test.util
 
 build cmake_object_order_depends_target_typeless_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build test/CMakeFiles/typeless_test.dir/test.cpp.obj: CXX_COMPILER__typeless_test_Debug ../test/test.cpp || cmake_object_order_depends_target_typeless_test
+build test\CMakeFiles\typeless_test.dir\test.cpp.obj: CXX_COMPILER__typeless_test_Debug ..\test\test.cpp || cmake_object_order_depends_target_typeless_test
   DEFINES = -D__TYPELESS_TEST
-  DEP_FILE = test\CMakeFiles\typeless_test.dir\test.cpp.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14
-  INCLUDES = -I../test/../include -isystem ../test/googletest/googletest/include -isystem ../test/googletest/googletest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\test\..\include -imsvc ..\test\googletest\googletest\include -imsvc ..\test\googletest\googletest
   OBJECT_DIR = test\CMakeFiles\typeless_test.dir
   OBJECT_FILE_DIR = test\CMakeFiles\typeless_test.dir
   TARGET_COMPILE_PDB = test\CMakeFiles\typeless_test.dir\
@@ -584,9 +571,10 @@ build test/CMakeFiles/typeless_test.dir/test.cpp.obj: CXX_COMPILER__typeless_tes
 #############################################
 # Link the executable test\typeless_test.exe
 
-build test/typeless_test.exe: CXX_EXECUTABLE_LINKER__typeless_test_Debug test/CMakeFiles/typeless_test.dir/test.cpp.obj | lib/gtestd.lib lib/gtest_maind.lib lib/gtestd.lib || lib/gtest_maind.lib lib/gtestd.lib
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
-  LINK_LIBRARIES = lib/gtestd.lib  lib/gtest_maind.lib  lib/gtestd.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+build test\typeless_test.exe: CXX_EXECUTABLE_LINKER__typeless_test_Debug test\CMakeFiles\typeless_test.dir\test.cpp.obj | lib\gtestd.lib lib\gtest_maind.lib lib\gtestd.lib || lib\gtest_maind.lib lib\gtestd.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = lib\gtestd.lib  lib\gtest_maind.lib  lib\gtestd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = test\CMakeFiles\typeless_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -599,79 +587,67 @@ build test/typeless_test.exe: CXX_EXECUTABLE_LINKER__typeless_test_Debug test/CM
 #############################################
 # Utility command for package
 
-build test/CMakeFiles/package.util: CUSTOM_COMMAND test/all
+build test\CMakeFiles\package.util: CUSTOM_COMMAND test\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build test/package: phony test/CMakeFiles/package.util
+build test\package: phony test\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for package_source
 
-build test/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build test\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build test/package_source: phony test/CMakeFiles/package_source.util
+build test\package_source: phony test\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for install/local
 
-build test/CMakeFiles/install/local.util: CUSTOM_COMMAND test/all
+build test\CMakeFiles\install\local.util: CUSTOM_COMMAND test\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build test/install/local: phony test/CMakeFiles/install/local.util
+build test\install\local: phony test\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build test/CMakeFiles/install.util: CUSTOM_COMMAND test/all
+build test\CMakeFiles\install.util: CUSTOM_COMMAND test\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build test/install: phony test/CMakeFiles/install.util
+build test\install: phony test\CMakeFiles\install.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build test/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build test\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build test/edit_cache: phony test/CMakeFiles/edit_cache.util
+build test\edit_cache: phony test\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build test/list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build test/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build test/install/strip: phony test/CMakeFiles/install/strip.util
+build test\list_install_components: phony
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -682,103 +658,91 @@ build test/install/strip: phony test/CMakeFiles/install/strip.util
 #############################################
 # Utility command for package
 
-build test/googletest/CMakeFiles/package.util: CUSTOM_COMMAND test/googletest/all
+build test\googletest\CMakeFiles\package.util: CUSTOM_COMMAND test\googletest\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build test/googletest/package: phony test/googletest/CMakeFiles/package.util
+build test\googletest\package: phony test\googletest\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for package_source
 
-build test/googletest/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build test\googletest\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build test/googletest/package_source: phony test/googletest/CMakeFiles/package_source.util
+build test\googletest\package_source: phony test\googletest\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build test/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build test\googletest\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build test/googletest/rebuild_cache: phony test/googletest/CMakeFiles/rebuild_cache.util
+build test\googletest\rebuild_cache: phony test\googletest\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for test
 
-build test/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+build test\googletest\CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build test/googletest/test: phony test/googletest/CMakeFiles/test.util
-
-
-#############################################
-# Utility command for install
-
-build test/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build test/googletest/install: phony test/googletest/CMakeFiles/install.util
+build test\googletest\test: phony test\googletest\CMakeFiles\test.util
 
 
 #############################################
 # Utility command for install/local
 
-build test/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/all
+build test\googletest\CMakeFiles\install\local.util: CUSTOM_COMMAND test\googletest\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build test/googletest/install/local: phony test/googletest/CMakeFiles/install/local.util
+build test\googletest\install\local: phony test\googletest\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build test\googletest\CMakeFiles\install.util: CUSTOM_COMMAND test\googletest\all
+  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build test\googletest\install: phony test\googletest\CMakeFiles\install.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build test/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build test\googletest\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build test/googletest/edit_cache: phony test/googletest/CMakeFiles/edit_cache.util
+build test\googletest\edit_cache: phony test\googletest\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build test/googletest/list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build test/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build test/googletest/install/strip: phony test/googletest/CMakeFiles/install/strip.util
+build test\googletest\list_install_components: phony
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -789,13 +753,13 @@ build test/googletest/install/strip: phony test/googletest/CMakeFiles/install/st
 #############################################
 # Utility command for edit_cache
 
-build test/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build test\googletest\googlemock\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/edit_cache: phony test/googletest/googlemock/CMakeFiles/edit_cache.util
+build test\googletest\googlemock\edit_cache: phony test\googletest\googlemock\CMakeFiles\edit_cache.util
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gmock_main
@@ -804,12 +768,27 @@ build test/googletest/googlemock/edit_cache: phony test/googletest/googlemock/CM
 #############################################
 # Order-only phony target for gmock_main
 
-build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
+build cmake_object_order_depends_target_gmock_main: phony || test\googletest\googlemock\CMakeFiles\gmock_main.dir
 
-build test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_Debug ../test/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
-  DEP_FILE = test\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++14
-  INCLUDES = -isystem ../test/googletest/googlemock/include -isystem ../test/googletest/googlemock -isystem ../test/googletest/googletest/include -isystem ../test/googletest/googletest
+build test\googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj: CXX_COMPILER__gmock_main_Debug ..\test\googletest\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googlemock\include -I..\test\googletest\googlemock -I..\test\googletest\googletest\include -I..\test\googletest\googletest
+  OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src
+  TARGET_COMPILE_PDB = bin\gmock_maind.pdb
+  TARGET_PDB = bin\gmock_maind.pdb
+
+build test\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj: CXX_COMPILER__gmock_main_Debug ..\test\googletest\googlemock\src\gmock-all.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googlemock\include -I..\test\googletest\googlemock -I..\test\googletest\googletest\include -I..\test\googletest\googletest
+  OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir\src
+  TARGET_COMPILE_PDB = bin\gmock_maind.pdb
+  TARGET_PDB = bin\gmock_maind.pdb
+
+build test\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj: CXX_COMPILER__gmock_main_Debug ..\test\googletest\googlemock\src\gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googlemock\include -I..\test\googletest\googlemock -I..\test\googletest\googletest\include -I..\test\googletest\googletest
   OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir\src
   TARGET_COMPILE_PDB = bin\gmock_maind.pdb
@@ -823,8 +802,9 @@ build test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
 #############################################
 # Link the static library lib\gmock_maind.lib
 
-build lib/gmock_maind.lib: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug test/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/gmockd.lib lib/gtestd.lib
-  LANGUAGE_COMPILE_FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+build lib\gmock_maind.lib: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug test\googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj test\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj test\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64
   OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -839,12 +819,19 @@ build lib/gmock_maind.lib: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug test/goog
 #############################################
 # Order-only phony target for gmock
 
-build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
+build cmake_object_order_depends_target_gmock: phony || test\googletest\googlemock\CMakeFiles\gmock.dir
 
-build test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_Debug ../test/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
-  DEP_FILE = test\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++14
-  INCLUDES = -I../test/googletest/googlemock/include -I../test/googletest/googlemock -isystem ../test/googletest/googletest/include -isystem ../test/googletest/googletest
+build test\googletest\googlemock\CMakeFiles\gmock.dir\__\googletest\src\gtest-all.cc.obj: CXX_COMPILER__gmock_Debug ..\test\googletest\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gmock
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googlemock\include -I..\test\googletest\googlemock -I..\test\googletest\googletest\include -I..\test\googletest\googletest
+  OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = test\googletest\googlemock\CMakeFiles\gmock.dir\__\googletest\src
+  TARGET_COMPILE_PDB = bin\gmockd.pdb
+  TARGET_PDB = bin\gmockd.pdb
+
+build test\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj: CXX_COMPILER__gmock_Debug ..\test\googletest\googlemock\src\gmock-all.cc || cmake_object_order_depends_target_gmock
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googlemock\include -I..\test\googletest\googlemock -I..\test\googletest\googletest\include -I..\test\googletest\googletest
   OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = test\googletest\googlemock\CMakeFiles\gmock.dir\src
   TARGET_COMPILE_PDB = bin\gmockd.pdb
@@ -858,8 +845,9 @@ build test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_
 #############################################
 # Link the static library lib\gmockd.lib
 
-build lib/gmockd.lib: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/gtestd.lib
-  LANGUAGE_COMPILE_FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+build lib\gmockd.lib: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test\googletest\googlemock\CMakeFiles\gmock.dir\__\googletest\src\gtest-all.cc.obj test\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64
   OBJECT_DIR = test\googletest\googlemock\CMakeFiles\gmock.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -871,91 +859,79 @@ build lib/gmockd.lib: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test/googletest/goo
 #############################################
 # Utility command for package
 
-build test/googletest/googlemock/CMakeFiles/package.util: CUSTOM_COMMAND test/googletest/googlemock/all
+build test\googletest\googlemock\CMakeFiles\package.util: CUSTOM_COMMAND test\googletest\googlemock\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/package: phony test/googletest/googlemock/CMakeFiles/package.util
+build test\googletest\googlemock\package: phony test\googletest\googlemock\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for package_source
 
-build test/googletest/googlemock/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build test\googletest\googlemock\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/package_source: phony test/googletest/googlemock/CMakeFiles/package_source.util
+build test\googletest\googlemock\package_source: phony test\googletest\googlemock\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build test/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build test\googletest\googlemock\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/rebuild_cache: phony test/googletest/googlemock/CMakeFiles/rebuild_cache.util
+build test\googletest\googlemock\rebuild_cache: phony test\googletest\googlemock\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for test
 
-build test/googletest/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
+build test\googletest\googlemock\CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/test: phony test/googletest/googlemock/CMakeFiles/test.util
+build test\googletest\googlemock\test: phony test\googletest\googlemock\CMakeFiles\test.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build test/googletest/googlemock/list_install_components: phony
+build test\googletest\googlemock\list_install_components: phony
 
 
 #############################################
 # Utility command for install/local
 
-build test/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/googlemock/all
+build test\googletest\googlemock\CMakeFiles\install\local.util: CUSTOM_COMMAND test\googletest\googlemock\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/install/local: phony test/googletest/googlemock/CMakeFiles/install/local.util
+build test\googletest\googlemock\install\local: phony test\googletest\googlemock\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build test/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/googlemock/all
+build test\googletest\googlemock\CMakeFiles\install.util: CUSTOM_COMMAND test\googletest\googlemock\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build test/googletest/googlemock/install: phony test/googletest/googlemock/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/strip
-
-build test/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googlemock && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build test/googletest/googlemock/install/strip: phony test/googletest/googlemock/CMakeFiles/install/strip.util
+build test\googletest\googlemock\install: phony test\googletest\googlemock\CMakeFiles\install.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -966,7 +942,7 @@ build test/googletest/googlemock/install/strip: phony test/googletest/googlemock
 #############################################
 # Utility command for list_install_components
 
-build test/googletest/googletest/list_install_components: phony
+build test\googletest\googletest\list_install_components: phony
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gtest
@@ -975,12 +951,11 @@ build test/googletest/googletest/list_install_components: phony
 #############################################
 # Order-only phony target for gtest
 
-build cmake_object_order_depends_target_gtest: phony || test/googletest/googletest/CMakeFiles/gtest.dir
+build cmake_object_order_depends_target_gtest: phony || test\googletest\googletest\CMakeFiles\gtest.dir
 
-build test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_Debug ../test/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
-  DEP_FILE = test\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++14
-  INCLUDES = -I../test/googletest/googletest/include -I../test/googletest/googletest
+build test\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj: CXX_COMPILER__gtest_Debug ..\test\googletest\googletest\src\gtest-all.cc || cmake_object_order_depends_target_gtest
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -I..\test\googletest\googletest\include -I..\test\googletest\googletest
   OBJECT_DIR = test\googletest\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = test\googletest\googletest\CMakeFiles\gtest.dir\src
   TARGET_COMPILE_PDB = bin\gtestd.pdb
@@ -994,8 +969,9 @@ build test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_
 #############################################
 # Link the static library lib\gtestd.lib
 
-build lib/gtestd.lib: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
-  LANGUAGE_COMPILE_FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+build lib\gtestd.lib: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64
   OBJECT_DIR = test\googletest\googletest\CMakeFiles\gtest.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -1012,10 +988,9 @@ build lib/gtestd.lib: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test/googletest/goo
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_Debug ../test/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
-  DEP_FILE = test\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=0 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++14
-  INCLUDES = -isystem ../test/googletest/googletest/include -isystem ../test/googletest/googletest
+build test\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj: CXX_COMPILER__gtest_main_Debug ..\test\googletest\googletest\src\gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1 -GS -W4 -WX -wd4251 -wd4275 -nologo -J -Zi -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1
+  INCLUDES = -imsvc ..\test\googletest\googletest\include -imsvc ..\test\googletest\googletest
   OBJECT_DIR = test\googletest\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = test\googletest\googletest\CMakeFiles\gtest_main.dir\src
   TARGET_COMPILE_PDB = bin\gtest_maind.pdb
@@ -1029,8 +1004,9 @@ build test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
 #############################################
 # Link the static library lib\gtest_maind.lib
 
-build lib/gtest_maind.lib: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug test/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/gtestd.lib
-  LANGUAGE_COMPILE_FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+build lib\gtest_maind.lib: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug test\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj || lib\gtestd.lib
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64
   OBJECT_DIR = test\googletest\googletest\CMakeFiles\gtest_main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -1042,97 +1018,85 @@ build lib/gtest_maind.lib: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug test/goog
 #############################################
 # Utility command for package
 
-build test/googletest/googletest/CMakeFiles/package.util: CUSTOM_COMMAND test/googletest/googletest/all
+build test\googletest\googletest\CMakeFiles\package.util: CUSTOM_COMMAND test\googletest\googletest\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build test/googletest/googletest/package: phony test/googletest/googletest/CMakeFiles/package.util
+build test\googletest\googletest\package: phony test\googletest\googletest\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for package_source
 
-build test/googletest/googletest/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build test\googletest\googletest\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build test/googletest/googletest/package_source: phony test/googletest/googletest/CMakeFiles/package_source.util
+build test\googletest\googletest\package_source: phony test\googletest\googletest\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build test/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build test\googletest\googletest\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build test/googletest/googletest/rebuild_cache: phony test/googletest/googletest/CMakeFiles/rebuild_cache.util
+build test\googletest\googletest\rebuild_cache: phony test\googletest\googletest\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for test
 
-build test/googletest/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+build test\googletest\googletest\CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build test/googletest/googletest/test: phony test/googletest/googletest/CMakeFiles/test.util
+build test\googletest\googletest\test: phony test\googletest\googletest\CMakeFiles\test.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build test/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build test\googletest\googletest\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build test/googletest/googletest/edit_cache: phony test/googletest/googletest/CMakeFiles/edit_cache.util
+build test\googletest\googletest\edit_cache: phony test\googletest\googletest\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for install/local
 
-build test/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND test/googletest/googletest/all
+build test\googletest\googletest\CMakeFiles\install\local.util: CUSTOM_COMMAND test\googletest\googletest\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build test/googletest/googletest/install/local: phony test/googletest/googletest/CMakeFiles/install/local.util
+build test\googletest\googletest\install\local: phony test\googletest\googletest\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build test/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND test/googletest/googletest/all
+build test\googletest\googletest\CMakeFiles\install.util: CUSTOM_COMMAND test\googletest\googletest\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build test/googletest/googletest/install: phony test/googletest/googletest/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/strip
-
-build test/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND test/googletest/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\test\googletest\googletest && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build test/googletest/googletest/install/strip: phony test/googletest/googletest/CMakeFiles/install/strip.util
+build test\googletest\googletest\install: phony test\googletest\googletest\CMakeFiles\install.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -1146,12 +1110,11 @@ build test/googletest/googletest/install/strip: phony test/googletest/googletest
 #############################################
 # Order-only phony target for typeless_sample
 
-build cmake_object_order_depends_target_typeless_sample: phony || sample/CMakeFiles/typeless_sample.dir
+build cmake_object_order_depends_target_typeless_sample: phony || sample\CMakeFiles\typeless_sample.dir
 
-build sample/CMakeFiles/typeless_sample.dir/sample.cpp.obj: CXX_COMPILER__typeless_sample_Debug ../sample/sample.cpp || cmake_object_order_depends_target_typeless_sample
-  DEP_FILE = sample\CMakeFiles\typeless_sample.dir\sample.cpp.obj.d
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++14
-  INCLUDES = -I../sample/../include
+build sample\CMakeFiles\typeless_sample.dir\sample.cpp.obj: CXX_COMPILER__typeless_sample_Debug ..\sample\sample.cpp || cmake_object_order_depends_target_typeless_sample
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\sample\..\include
   OBJECT_DIR = sample\CMakeFiles\typeless_sample.dir
   OBJECT_FILE_DIR = sample\CMakeFiles\typeless_sample.dir
   TARGET_COMPILE_PDB = sample\CMakeFiles\typeless_sample.dir\
@@ -1165,9 +1128,10 @@ build sample/CMakeFiles/typeless_sample.dir/sample.cpp.obj: CXX_COMPILER__typele
 #############################################
 # Link the executable sample\typeless_sample.exe
 
-build sample/typeless_sample.exe: CXX_EXECUTABLE_LINKER__typeless_sample_Debug sample/CMakeFiles/typeless_sample.dir/sample.cpp.obj
-  FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+build sample\typeless_sample.exe: CXX_EXECUTABLE_LINKER__typeless_sample_Debug sample\CMakeFiles\typeless_sample.dir\sample.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = sample\CMakeFiles\typeless_sample.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -1180,130 +1144,118 @@ build sample/typeless_sample.exe: CXX_EXECUTABLE_LINKER__typeless_sample_Debug s
 #############################################
 # Utility command for package
 
-build sample/CMakeFiles/package.util: CUSTOM_COMMAND sample/all
+build sample\CMakeFiles\package.util: CUSTOM_COMMAND sample\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build sample/package: phony sample/CMakeFiles/package.util
+build sample\package: phony sample\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for package_source
 
-build sample/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build sample\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Projects/Typeless/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build sample/package_source: phony sample/CMakeFiles/package_source.util
+build sample\package_source: phony sample\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build sample/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+build sample\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe --regenerate-during-build -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build sample/rebuild_cache: phony sample/CMakeFiles/rebuild_cache.util
+build sample\rebuild_cache: phony sample\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for test
 
-build sample/CMakeFiles/test.util: CUSTOM_COMMAND
+build sample\CMakeFiles\test.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build sample/test: phony sample/CMakeFiles/test.util
+build sample\test: phony sample\CMakeFiles\test.util
 
 
 #############################################
 # Utility command for install/local
 
-build sample/CMakeFiles/install/local.util: CUSTOM_COMMAND sample/all
+build sample\CMakeFiles\install\local.util: CUSTOM_COMMAND sample\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build sample/install/local: phony sample/CMakeFiles/install/local.util
+build sample\install\local: phony sample\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build sample/CMakeFiles/install.util: CUSTOM_COMMAND sample/all
+build sample\CMakeFiles\install.util: CUSTOM_COMMAND sample\all
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build sample/install: phony sample/CMakeFiles/install.util
+build sample\install: phony sample\CMakeFiles\install.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build sample/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+build sample\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake-gui.exe -SC:\Projects\Typeless -BC:\Projects\Typeless\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build sample/edit_cache: phony sample/CMakeFiles/edit_cache.util
+build sample\edit_cache: phony sample\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build sample/list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build sample/CMakeFiles/install/strip.util: CUSTOM_COMMAND sample/all
-  COMMAND = cmd.exe /C "cd /D C:\Projects\Typeless\build\sample && C:\Users\main\scoop\apps\cmake\3.19.6\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build sample/install/strip: phony sample/CMakeFiles/install/strip.util
+build sample\list_install_components: phony
 
 # =============================================================================
 # Target aliases.
 
-build gmock: phony lib/gmockd.lib
+build gmock: phony lib\gmockd.lib
 
-build gmock_main: phony lib/gmock_maind.lib
+build gmock_main: phony lib\gmock_maind.lib
 
-build gmock_maind.lib: phony lib/gmock_maind.lib
+build gmock_maind.lib: phony lib\gmock_maind.lib
 
-build gmockd.lib: phony lib/gmockd.lib
+build gmockd.lib: phony lib\gmockd.lib
 
-build gtest: phony lib/gtestd.lib
+build gtest: phony lib\gtestd.lib
 
-build gtest_main: phony lib/gtest_maind.lib
+build gtest_main: phony lib\gtest_maind.lib
 
-build gtest_maind.lib: phony lib/gtest_maind.lib
+build gtest_maind.lib: phony lib\gtest_maind.lib
 
-build gtestd.lib: phony lib/gtestd.lib
+build gtestd.lib: phony lib\gtestd.lib
 
-build typeless_sample: phony sample/typeless_sample.exe
+build typeless_sample: phony sample\typeless_sample.exe
 
-build typeless_sample.exe: phony sample/typeless_sample.exe
+build typeless_sample.exe: phony sample\typeless_sample.exe
 
-build typeless_test: phony test/typeless_test.exe
+build typeless_test: phony test\typeless_test.exe
 
-build typeless_test.exe: phony test/typeless_test.exe
+build typeless_test.exe: phony test\typeless_test.exe
 
 # =============================================================================
 # Folder targets.
@@ -1313,42 +1265,42 @@ build typeless_test.exe: phony test/typeless_test.exe
 #############################################
 # Folder: C:/Projects/Typeless/build
 
-build all: phony test/all sample/all
+build all: phony test\all sample\all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Projects/Typeless/build/sample
 
-build sample/all: phony sample/typeless_sample.exe
+build sample\all: phony sample\typeless_sample.exe
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Projects/Typeless/build/test
 
-build test/all: phony test/typeless_test.exe test/googletest/all
+build test\all: phony test\typeless_test.exe test\googletest\all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Projects/Typeless/build/test/googletest
 
-build test/googletest/all: phony test/googletest/googlemock/all
+build test\googletest\all: phony test\googletest\googlemock\all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Projects/Typeless/build/test/googletest/googlemock
 
-build test/googletest/googlemock/all: phony lib/gmock_maind.lib lib/gmockd.lib test/googletest/googletest/all
+build test\googletest\googlemock\all: phony lib\gmock_maind.lib lib\gmockd.lib test\googletest\googletest\all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Projects/Typeless/build/test/googletest/googletest
 
-build test/googletest/googletest/all: phony lib/gtestd.lib lib/gtest_maind.lib
+build test\googletest\googletest\all: phony lib\gtestd.lib lib\gtest_maind.lib
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -1362,14 +1314,14 @@ build test/googletest/googletest/all: phony lib/gtestd.lib lib/gtest_maind.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../sample/CMakeLists.txt ../test/CMakeLists.txt ../test/googletest/CMakeLists.txt ../test/googletest/googlemock/CMakeLists.txt ../test/googletest/googlemock/cmake/gmock.pc.in ../test/googletest/googlemock/cmake/gmock_main.pc.in ../test/googletest/googletest/CMakeLists.txt ../test/googletest/googletest/cmake/Config.cmake.in ../test/googletest/googletest/cmake/gtest.pc.in ../test/googletest/googletest/cmake/gtest_main.pc.in ../test/googletest/googletest/cmake/internal_utils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCCompilerABI.c C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCompilerIdDetection.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDependentOption.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompilerId.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineSystem.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeFindBinUtils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeGenericSystem.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeNinjaFindMake.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeRCCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeRCInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystem.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCXXCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCompilerCommon.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestRCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CPack.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CPackComponent.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTest.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTestTargets.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTestUseLaunchers.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckIncludeFile.c.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckIncludeFile.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckLibraryExists.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-C.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/DartConfiguration.tcl.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPackageMessage.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPythonInterp.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindThreads.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/GNUInstallDirs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Internal/FeatureTesting.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang-C.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.19.6/CMakeCCompiler.cmake CMakeFiles/3.19.6/CMakeCXXCompiler.cmake CMakeFiles/3.19.6/CMakeRCCompiler.cmake CMakeFiles/3.19.6/CMakeSystem.cmake CMakeFiles/feature_tests.cxx
+build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt ..\sample\CMakeLists.txt ..\test\CMakeLists.txt ..\test\googletest\CMakeLists.txt ..\test\googletest\googlemock\CMakeLists.txt ..\test\googletest\googlemock\cmake\gmock.pc.in ..\test\googletest\googlemock\cmake\gmock_main.pc.in ..\test\googletest\googletest\CMakeLists.txt ..\test\googletest\googletest\cmake\Config.cmake.in ..\test\googletest\googletest\cmake\gtest.pc.in ..\test\googletest\googletest\cmake\gtest_main.pc.in ..\test\googletest\googletest\cmake\internal_utils.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCXXInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeDependentOption.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeGenericSystem.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeRCInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CPack.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CPackComponent.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTest.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTestTargets.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTestUseLaunchers.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckIncludeFile.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckLibraryExists.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang-C.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang-CXX.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\DartConfiguration.tcl.in C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPackageMessage.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPythonInterp.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindThreads.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\GNUInstallDirs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang-C.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang-CXX.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.19.6\CMakeCCompiler.cmake CMakeFiles\3.19.6\CMakeCXXCompiler.cmake CMakeFiles\3.19.6\CMakeRCCompiler.cmake CMakeFiles\3.19.6\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../sample/CMakeLists.txt ../test/CMakeLists.txt ../test/googletest/CMakeLists.txt ../test/googletest/googlemock/CMakeLists.txt ../test/googletest/googlemock/cmake/gmock.pc.in ../test/googletest/googlemock/cmake/gmock_main.pc.in ../test/googletest/googletest/CMakeLists.txt ../test/googletest/googletest/cmake/Config.cmake.in ../test/googletest/googletest/cmake/gtest.pc.in ../test/googletest/googletest/cmake/gtest_main.pc.in ../test/googletest/googletest/cmake/internal_utils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCCompilerABI.c C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCXXInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeCompilerIdDetection.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDependentOption.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineCompilerId.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeDetermineSystem.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeFindBinUtils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeGenericSystem.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeNinjaFindMake.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeRCCompiler.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeRCInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystem.cmake.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCXXCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestCompilerCommon.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CMakeTestRCCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CPack.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CPackComponent.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTest.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTestTargets.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CTestUseLaunchers.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckIncludeFile.c.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckIncludeFile.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/CheckLibraryExists.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-C.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Clang.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/DartConfiguration.tcl.in C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPackageMessage.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindPythonInterp.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/FindThreads.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/GNUInstallDirs.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Internal/FeatureTesting.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang-C.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Clang.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/Windows.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/main/scoop/apps/cmake/3.19.6/share/cmake-3.19/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.19.6/CMakeCCompiler.cmake CMakeFiles/3.19.6/CMakeCXXCompiler.cmake CMakeFiles/3.19.6/CMakeRCCompiler.cmake CMakeFiles/3.19.6/CMakeSystem.cmake CMakeFiles/feature_tests.cxx: phony
+build ..\CMakeLists.txt ..\sample\CMakeLists.txt ..\test\CMakeLists.txt ..\test\googletest\CMakeLists.txt ..\test\googletest\googlemock\CMakeLists.txt ..\test\googletest\googlemock\cmake\gmock.pc.in ..\test\googletest\googlemock\cmake\gmock_main.pc.in ..\test\googletest\googletest\CMakeLists.txt ..\test\googletest\googletest\cmake\Config.cmake.in ..\test\googletest\googletest\cmake\gtest.pc.in ..\test\googletest\googletest\cmake\gtest_main.pc.in ..\test\googletest\googletest\cmake\internal_utils.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCXXInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeDependentOption.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeGenericSystem.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeRCInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CPack.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CPackComponent.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTest.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTestTargets.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CTestUseLaunchers.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckIncludeFile.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\CheckLibraryExists.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang-C.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang-CXX.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Compiler\Clang.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\DartConfiguration.tcl.in C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPackageMessage.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindPythonInterp.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\FindThreads.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\GNUInstallDirs.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang-C.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang-CXX.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-Clang.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\Windows.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\main\scoop\apps\cmake\3.19.6\share\cmake-3.19\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.19.6\CMakeCCompiler.cmake CMakeFiles\3.19.6\CMakeCXXCompiler.cmake CMakeFiles\3.19.6\CMakeRCCompiler.cmake CMakeFiles\3.19.6\CMakeSystem.cmake: phony
 
 
 #############################################
